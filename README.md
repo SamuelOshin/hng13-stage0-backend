@@ -3,6 +3,7 @@
 A FastAPI application that provides a `/me` profile endpoint integrated with the Cat Facts API. It’s async, validated with Pydantic models, and resilient with graceful fallbacks.
 
 • Blog write-up: see `blog/blog.md` for a social-ready post with context, lessons, and media placeholders.
+    • GitHub repo: [github.com/SamuelOshin/hng13-stage0-backend](https://github.com/SamuelOshin/hng13-stage0-backend)
 
 ## Project Structure
 
@@ -119,6 +120,8 @@ pytest -q
 If the Cat Facts API is unavailable, the endpoint returns a fallback message instead of failing, ensuring the endpoint remains functional.
 
 ## References
+
+- GitHub: [github.com/SamuelOshin/hng13-stage0-backend](https://github.com/SamuelOshin/hng13-stage0-backend)
 
 - Blog: `blog/blog.md`
 - Swagger UI: `http://localhost:8000/docs`

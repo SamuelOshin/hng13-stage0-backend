@@ -2,7 +2,7 @@
 
 TL;DR: I built a minimal FastAPI backend that exposes a single endpoint, `/me`, which returns my profile details, an ISO 8601 UTC timestamp, and a fun Cat Fact from an external API. It’s resilient (graceful fallbacks on failures), typed (Pydantic models), async (httpx), and documented (Swagger + README). This post covers the why, how, lessons learned, and how you can run it yourself.
 
-– Repo: ./ (you’re here!)
+– Repo: [github.com/SamuelOshin/hng13-stage0-backend](https://github.com/SamuelOshin/hng13-stage0-backend)
 – Tech: FastAPI, Pydantic v2, httpx, Uvicorn
 
 ## What I built
@@ -136,3 +136,5 @@ X (formerly Twitter) thread starter:
 ## Call to action
 
 If this was helpful, star the repo and reach out—I’m open to feedback, contributions, and collaboration.
+
+GitHub: [github.com/SamuelOshin/hng13-stage0-backend](https://github.com/SamuelOshin/hng13-stage0-backend)
