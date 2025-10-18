@@ -1,6 +1,7 @@
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 httpx==0.25.1
-pydantic[email]==2.5.0
+# Use a Pydantic version with Python 3.13 wheels to avoid Rust build on Render
+pydantic[email]>=2.10,<3
 pydantic-settings==2.1.0
 python-dotenv==1.0.0
