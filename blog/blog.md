@@ -2,7 +2,7 @@
 
 TL;DR: I built a minimal FastAPI backend that exposes a single endpoint, `/me`, which returns my profile details, an ISO 8601 UTC timestamp, and a fun Cat Fact from an external API. It’s resilient (graceful fallbacks on failures), typed (Pydantic models), async (httpx), and documented (Swagger + README). This post covers the why, how, lessons learned, and how you can run it yourself.
 
-– Repo: [github.com/SamuelOshin/hng13-stage0-backend](https://github.com/SamuelOshin/hng13-stage0-backend)
+– Repo: [github.com/SamuelOshin/hng13-stage0-backend](Repo)
 – Tech: FastAPI, Pydantic v2, httpx, Uvicorn
 
 ## What I built
@@ -121,20 +121,8 @@ Below are placeholders you can replace with your own screenshots or short clips:
 ![Terminal running uvicorn](./assets/terminal-run.png)
 ![Sample /me response in browser](./assets/browser-response.png)
 
-Tips for better engagement:
-- Short 10–20s screen recording of hitting /me and opening /docs
-- One carousel (LinkedIn) showing project structure, code snippets, and the JSON output
-
-## Copy-paste captions for social
-
-LinkedIn/Dev.to/Hashnode/Medium intro:
-> I built a tiny but resilient FastAPI service that returns my profile + a random cat fact. It’s async, typed, has graceful fallbacks, and ships with docs/tests. In this write-up, I share the structure, design decisions, and lessons learned. Repo + how to run inside. #HNGi13 #FastAPI #Python #Backend #APIs
-
-X (formerly Twitter) thread starter:
-1/ I built a tiny FastAPI backend: `/me` returns my profile + a cat fact. Async httpx, Pydantic v2, timeouts, and graceful fallbacks. Docs + tests included. 🧵👇 #HNGi13 #FastAPI #Python
-
 ## Call to action
 
 If this was helpful, star the repo and reach out—I’m open to feedback, contributions, and collaboration.
 
-GitHub: [github.com/SamuelOshin/hng13-stage0-backend](https://github.com/SamuelOshin/hng13-stage0-backend)
+GitHub: [github.com/SamuelOshin/hng13-stage0-backend](Repo)
