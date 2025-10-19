@@ -1,3 +1,4 @@
+import os
 from pydantic_settings import BaseSettings
 from functools import lru_cache
 
@@ -12,9 +13,9 @@ class Settings(BaseSettings):
     # API Configuration
     API_TITLE: str = "Profile API"
     API_VERSION: str = "1.0.0"
-    PORT:  int = 7001
     HOST: str = "0.0.0.0"
-    
+    PORT: int = int(os.getenv("PORT", 7001)) 
+
     class Config:
         env_file = ".env"
         case_sensitive = True

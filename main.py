@@ -24,6 +24,11 @@ app.include_router(profile.router)
 async def root():
     return {"message": "Welcome to Profile API. Visit /me for profile info."}
 
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
+
+
 if __name__ == "__main__":
     import uvicorn
     from app.config import settings
